@@ -29,6 +29,8 @@ git clone https://github.com/pathirana/tempworks.git tempworks
 2) Run in your tempworks folder:
 ``` bash
 composer install
+cp .env.example .env
+php artisan key:generate
 php artisan serve
 ```
 
