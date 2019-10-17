@@ -20,7 +20,7 @@ export default {
       updateArgs: [true, true, true],
       chartOptions: {
         chart: {
-          type: "line",
+          type: "spline",
           zoomType: "x"
         },
         plotOptions: {
