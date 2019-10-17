@@ -73,7 +73,7 @@ export default {
   },
   beforeMount() {
     let self = this;
-    axios.get("/api/user-chart-data").then(response => {
+    axios.get("/api/users-data").then(response => {
       self.chartOptions.series = response.data;
     });
   },
